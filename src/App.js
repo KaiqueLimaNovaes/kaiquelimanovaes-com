@@ -1,4 +1,3 @@
-//import './App.css';
 import Rotas from './rotas.js';
 import {BrowserRouter} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
