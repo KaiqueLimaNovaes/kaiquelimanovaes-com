@@ -19,6 +19,12 @@ export const Menu = () => {
       color: #1d6bff;
     `;
 
+    const NavMenu = styled(Navbar.Collapse)`
+      justify-content: right;
+      text-align: right;
+      flex-grow: 0; 
+    `;
+
     const ItensMenu = styled(Nav.Link)`
       font-size: 20px;
       color: #1d6bff !important;
@@ -60,7 +66,7 @@ export const Menu = () => {
           <Toggle aria-controls="menu-topo">
           </Toggle>
   
-          <Navbar.Collapse id="menu-topo">
+          <NavMenu id="menu-topo">
             <Nav className="menu m-auto">
   
               {menuItens.map((iten) => (
@@ -73,7 +79,7 @@ export const Menu = () => {
   
   
             </Nav>
-          </Navbar.Collapse>
+          </NavMenu>
   
         </Container>
       </Navbar>

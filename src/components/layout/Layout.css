@@ -1,5 +1,11 @@
+@font-face{
+  font-family:SF Pro Display Semibold;
+  src: local('SF Pro Display Semibold'), url(../../assets/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf) format('truetype');
+}
+
 .Layout {
-    text-align: center;
-    background-color: #000000;
-    height: 100vh;
-  }
+  text-align: center;
+  background-color: #000000;
+  height: 100vh;
+  font-family:SF Pro Display Semibold;
+}
