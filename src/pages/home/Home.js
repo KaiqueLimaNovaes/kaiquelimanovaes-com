@@ -8,7 +8,7 @@ const Title = styled.h1`
 
 const Home = () => {
     return(
-        <Title>Home</Title>
+      <Title>Home</Title>
     );
 }
 
