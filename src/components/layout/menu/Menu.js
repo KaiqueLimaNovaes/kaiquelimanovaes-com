@@ -14,9 +14,9 @@ export const Menu = () => {
   `; 
   
   const Title = styled.h1`
-      font-size: 25px;
+      font-size: 30px;
       font-weight: bold;
-      color: #1d6bff;
+      color: #A1A1A6;
     `;
 
     const NavMenu = styled(Navbar.Collapse)`
@@ -27,7 +27,7 @@ export const Menu = () => {
 
     const ItensMenu = styled(Nav.Link)`
       font-size: 20px;
-      color: #1d6bff !important;
+      color: #A1A1A6 !important;
       &:hover{
         animation: 2s ${fadeIn} ease-out;
         color: #0ae0fc !important;

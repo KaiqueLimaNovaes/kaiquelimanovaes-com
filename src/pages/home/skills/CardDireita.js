@@ -4,14 +4,14 @@ import styled from 'styled-components';
 import ReactImg from '../../../assets/images/python.png';
 
 const Card = styled.div`
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     width: 90%;
     height: 300px;
     border-radius: 20px;
     border: 1px solid #1d6bff;
-    background-color: #7729ff !important;
+    background: linear-gradient(135deg, #651E43, #091A33);
     box-shadow: 0 0 10px #fff, 0 0 20px #0247c9;
 `;
 

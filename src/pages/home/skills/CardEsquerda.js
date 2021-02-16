@@ -11,7 +11,7 @@ const Card = styled.div`
     height: 300px;
     border-radius: 20px;
     border: 1px solid #1d6bff;
-    background-color: #7729ff !important;
+    background: linear-gradient(135deg, #651E43, #091A33);
     box-shadow: 0 0 10px #fff, 0 0 20px #0247c9;
 `;
 

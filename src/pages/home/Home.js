@@ -9,15 +9,15 @@ const Section1 = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  color: #1d6bff;
+  color: #A1A1A6;
 `;
 
 const Home = () => {
     return(
       <Section1>
-        <Title>Bem vido ao meu portifólio</Title>
+        <Title>Bem vindo ao meu portifólio</Title>
         <CardEsquerda />
         <CardDireita />
       </Section1>
