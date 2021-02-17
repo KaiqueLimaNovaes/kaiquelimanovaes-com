@@ -22,7 +22,7 @@ const RowTopH = styled(Row)`
 const NeonLine = styled.div`
   width: 100%;
   height: 3px;
-  background-color: #1d6bff;
+  background-color: #A1A1A6;
   box-shadow: 0 0 20px #fff, 0 0 30px #0247c9;
   animation: 3.1s ${fadeIn} ease-out;
 `;
@@ -32,7 +32,7 @@ const TopHeader = () => {
       <Container fluid>
         <RowTopH>
           <Col>
-            <IconContext.Provider value={{ color: "#1d6bff", size: "1.8em" }}>
+            <IconContext.Provider value={{ color: "#A1A1A6", size: "1.8em" }}>
               <FaLinkedinIn onClick={() => window.open('https://www.linkedin.com/in/kaique-lima-novaes-834bb9150/')} style={{paddingLeft: 10, cursor: 'pointer',}} />
               <FaGithub onClick={() => window.open('https://github.com/KaiqueLimaNovaes')} style={{paddingLeft: 10, cursor: 'pointer',}} />
               <FaYoutube onClick={() => window.open('https://www.youtube.com/channel/UCh_4ntexRvLbaK9rEmqJ3dg')} style={{paddingLeft: 10, cursor: 'pointer',}} />

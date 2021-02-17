@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import ReactImg from '../../../assets/images/node.png';
 
 const Card = styled.div`
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
     width: 90%;
@@ -17,17 +17,24 @@ const Card = styled.div`
 
 const Logo = styled.img`
     margin-top: 25px;
-    height: 250px;
+    width: 90%;
+    max-width: 300px;
+    max-height: 250px;
 `;
 
-const CardEsquerda = () => {
+const TextoCard = styled.h3`
+  font-size: 20px;
+  color: #A1A1A6;
+`;
+
+const CardEsquerda = (props) => {
     return(
       <Card>
           <Row>
               <Col xl={4}>
-                  <Logo src={ReactImg} alt="" />
+                  <Logo src={props.img} alt="" />
               </Col>
-              <Col xl={8}>Node js</Col>
+              <Col xl={8}><TextoCard>{props.texto}</TextoCard></Col>
           </Row>
       </Card>
     );

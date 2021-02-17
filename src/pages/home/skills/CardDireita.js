@@ -17,16 +17,23 @@ const Card = styled.div`
 
 const Logo = styled.img`
     margin-top: 25px;
-    height: 250px;
+    width: 90%;
+    max-width: 300px;
+    max-height: 250px;
 `;
 
-const CardDireita = () => {
+const TextoCard = styled.h3`
+  font-size: 20px;
+  color: #A1A1A6;
+`;
+
+const CardDireita = (props) => {
     return(
         <Card>
             <Row>
-                <Col xl={8}>Python</Col>
+                <Col xl={8}><TextoCard>{props.texto}</TextoCard></Col>
                 <Col xl={4}>
-                    <Logo src={ReactImg} alt="" />
+                    <Logo src={props.img} alt="" />
                 </Col>
             </Row>
         </Card>

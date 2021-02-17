@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-import CardEsquerda from './skills/CardEsquerda';
-import CardDireita from './skills/CardDireita';
+import Skills from './skills/Skills';
 
 const Section1 = styled.div`
   justify-content: center;
@@ -18,8 +17,7 @@ const Home = () => {
     return(
       <Section1>
         <Title>Bem vindo ao meu portifólio</Title>
-        <CardEsquerda />
-        <CardDireita />
+        <Skills />
       </Section1>
     );
 }

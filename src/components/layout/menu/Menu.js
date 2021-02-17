@@ -14,7 +14,7 @@ export const Menu = () => {
   `; 
   
   const Title = styled.h1`
-      font-size: 30px;
+      font-size: 25px;
       font-weight: bold;
       color: #A1A1A6;
     `;
@@ -35,7 +35,7 @@ export const Menu = () => {
     `;
 
     const Toggle = styled(Navbar.Toggle)`
-      background-color: #1d6bff !important;
+      background-color: #A1A1A6 !important;
     `;
 
     const history = useHistory();
