@@ -21,10 +21,8 @@ const RowTopH = styled(Row)`
 
 const NeonLine = styled.div`
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: #A1A1A6;
-  box-shadow: 0 0 20px #fff, 0 0 30px #0247c9;
-  animation: 3.1s ${fadeIn} ease-out;
 `;
 
 const TopHeader = () => {

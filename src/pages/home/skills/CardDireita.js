@@ -1,8 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import styled from 'styled-components';
 
-import ReactImg from '../../../assets/images/python.png';
-
 const Card = styled.div`
     margin-top: 30px;
     margin-right: auto;

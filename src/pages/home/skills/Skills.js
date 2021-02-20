@@ -19,9 +19,16 @@ const Section1 = styled.div`
   align-itens: center;
 `;
 
+const Title = styled.h1`
+  font-size: 50px;
+  font-weight: bold;
+  color: #A1A1A6;
+`;
+
 const Skills = () => {
     return(
       <Section1>
+        <Title>Skills</Title>
         <CardEsquerda texto={'react js'} img={ReactImg} />
         <CardDireita texto={'node js'} img={NodeImg} />
         <CardEsquerda texto={'react native'} img={ReactNImg} />
