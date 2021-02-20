@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Jumbotron } from "react-bootstrap";
 
-import Bcg from '../../../assets/images/home/banner.jpg'
+import Bcg from '../../../assets/images/home/code2.jpg'
 
 const Section1 = styled.div`
     justify-content: center;
@@ -13,7 +13,7 @@ const Jumbo = styled(Jumbotron)`
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    height: 500px;
+    height: 650px;
     width: 100%;
 `;
 
