@@ -17,11 +17,12 @@ const RowTopH = styled(Row)`
   text-align: right;
   padding-top: 10px;
   padding-right: 20px;
+  background-color: #151516;
 `;
 
 const NeonLine = styled.div`
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: #A1A1A6;
 `;
 

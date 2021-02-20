@@ -12,6 +12,10 @@ export const Menu = () => {
       text-shadow: 0 0 20px #fff, 0 0 30px #0247c9, 0 0 40px #0247c9, 0 0 50px #0247c9, 0 0 60px #0247c9, 0 0 70px #0247c9, 0 0 80px #0247c9;
     }
   `; 
+
+  const BarraMenu = styled(Navbar)`
+    background-color: #151516 !important;
+  `;
   
   const Title = styled.h1`
       font-size: 25px;
@@ -56,7 +60,7 @@ export const Menu = () => {
     ];
   
     return (
-      <Navbar expand="lg">
+      <BarraMenu expand="lg">
         <Container>
   
           <Navbar.Brand>
@@ -82,7 +86,7 @@ export const Menu = () => {
           </NavMenu>
   
         </Container>
-      </Navbar>
+      </BarraMenu>
     );
 };
 
