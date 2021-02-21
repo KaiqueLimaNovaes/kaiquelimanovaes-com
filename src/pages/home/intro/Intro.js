@@ -8,6 +8,7 @@ const Section1 = styled.div`
 `;
 
 const Title = styled.h1`
+  margin-bottom: 10px;
   font-size: 50px;
   font-weight: bold;
   color: #A1A1A6;
