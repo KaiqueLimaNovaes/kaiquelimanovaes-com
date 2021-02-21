@@ -5,7 +5,7 @@ import ImgFoto from '../../../assets/images/home/kaiquelimanovaes.jpg';
 
 const Section1 = styled.div`
     justify-content: center;
-    align-itens: center;
+    align-items: center;
 `;
 
 const Title = styled.h1`

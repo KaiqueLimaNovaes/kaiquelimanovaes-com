@@ -2,6 +2,7 @@ import './Layout.css';
 import TopHeader from './topHeader/TopHeader';
 import Menu from './menu/Menu';
 import NeonLine from './neonline/NeonLine';
+import Footer from './footer/Footer';
 
 const Layout = ({ children }) => {
     return(
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
             <Menu />
             <NeonLine />
             <div>{children}</div>
+            <Footer />
         </div>
     );
 }
