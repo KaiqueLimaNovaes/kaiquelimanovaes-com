@@ -33,17 +33,23 @@ const Texto = styled.h3`
     color: #A1A1A6;
 `;
 
+const Linha = styled(Row)`
+    margin: 0;
+`;
+
 const Coluna = styled(Col)`
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding: 0;
 `;
 
 const Apresentacao = () => {
     return(
       <Section1>
         <Title>Apresentação</Title>
-        <Row>
+        <Linha>
             <Coluna xl={6}>
                 <Foto src={ImgFoto} alt="Kaique Lima Novaes" />
             </Coluna>
@@ -51,7 +57,7 @@ const Apresentacao = () => {
                 <Texto>Prático, realista e eficiente, com ótima capacidade de criação e execução. O que mais me motiva é atuar com autonomia, liderar times e processos e criar soluções novas, para impactar as pessoas em prol de um mundo mais próspero e justo.
                 </Texto>
             </Coluna>
-        </Row>
+        </Linha>
       </Section1>
     );
 }

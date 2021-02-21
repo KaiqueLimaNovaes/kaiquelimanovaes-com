@@ -13,17 +13,23 @@ const fadeIn = keyframes`
   }
 `;
 
+const Cont = styled(Container)`
+  width: 100%;
+  padding: 0;
+`;
+
 const Neon = styled.div`
   width: 100%;
   height: 2px;
   background-color: #A1A1A6;
+  padding: 0;
 `;
 
 const NeonLine = () => {
     return(
-      <Container fluid>
+      <Cont fluid>
         <Neon />
-      </Container>
+      </Cont>
     );
 }
 
