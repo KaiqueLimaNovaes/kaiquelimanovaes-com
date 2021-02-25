@@ -28,15 +28,41 @@ const Skills = () => {
   return(
     <Section1>
       <Title>Skills</Title>
-      <CardEsquerda texto={'react js'} img={ReactImg} />
-      <CardDireita texto={'node js'} img={NodeImg} />
-      <CardEsquerda texto={'react native'} img={ReactNImg} />
-      <CardDireita texto={'php'} img={PhpImg} />
-      <CardEsquerda texto={'python'} img={PythonImg} />
-      <CardDireita texto={'html'} img={HtmlImg} />
-      <CardEsquerda texto={'mysql'} img={MysqlImg} />
-      <CardDireita texto={'mongodb'} img={MongoImg} />
-      <CardEsquerda texto={'git'} img={GitImg} />
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'}
+      tec={'Clique para conhecer um projeto em react js'} img={ReactImg} 
+      end={'https://github.com/KaiqueLimaNovaes/kaiquelimanovaes-com'} />
+
+      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em node js'} img={NodeImg} 
+      end={'https://github.com/KaiqueLimaNovaes/fullstack-games-api-node'} />
+
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em react native'} img={ReactNImg} 
+      end={'https://github.com/KaiqueLimaNovaes/fullstack-games-app.git'} />
+
+      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em php'} img={PhpImg} 
+      end={'https://github.com/KaiqueLimaNovaes/fullstack-games-back'} />
+
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em python'} img={PythonImg} 
+      end={'https://github.com/KaiqueLimaNovaes/calculadora-python.git'} />
+
+      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em html'} img={HtmlImg} 
+      end={'https://github.com/KaiqueLimaNovaes/fullstackGames.git'} />
+
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em mysql'} img={MysqlImg} 
+      end={'https://github.com/KaiqueLimaNovaes'} />
+
+      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer um projeto em mongodb'} img={MongoImg} 
+      end={'https://github.com/KaiqueLimaNovaes/fullstack-games-api-mongodb.git'} />
+
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      tec={'Clique para conhecer meu github'} img={GitImg} 
+      end={'https://github.com/KaiqueLimaNovaes'} />
     </Section1>
   );
 }

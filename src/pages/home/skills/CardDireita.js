@@ -42,29 +42,58 @@ const Card = styled.div`
     &:after {
         filter: blur(15px);
     }
+    @media (max-width: 800px) {
+        height: 500px;
+    }
 `;
 
 const Logo = styled.img`
-    margin-top: 25px;
     width: 90%;
     max-width: 300px;
     max-height: 250px;
 `;
 
+const Linha = styled(Row)`
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+`;
+
+const Coluna = styled(Col)`
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+`;
+
 const TextoCard = styled.h3`
-  font-size: 20px;
-  color: #A1A1A6;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 24px;
+    color: #A1A1A6;
+`;
+
+const TextoChamada = styled.h3`
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    color: #A1A1A6;
 `;
 
 const CardDireita = (props) => {
     return(
-        <Card>
-            <Row>
-                <Col xl={8}><TextoCard>{props.texto}</TextoCard></Col>
-                <Col xl={4}>
+        <Card onClick={() => window.open(props.end)}>
+            <Linha>
+                <Coluna xl={8}>
+                    <TextoCard>{props.texto}</TextoCard>
+                    <TextoChamada>{props.tec}</TextoChamada>
+                </Coluna>
+                <Coluna xl={4}>
                     <Logo src={props.img} alt="" />
-                </Col>
-            </Row>
+                </Coluna>
+            </Linha>
         </Card>
     );
 }
