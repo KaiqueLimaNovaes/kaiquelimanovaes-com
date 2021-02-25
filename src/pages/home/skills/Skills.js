@@ -28,23 +28,23 @@ const Skills = () => {
   return(
     <Section1>
       <Title>Skills</Title>
-      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'}
+      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor.'}
       tec={'Clique para conhecer um projeto em react js'} img={ReactImg} 
       end={'https://github.com/KaiqueLimaNovaes/kaiquelimanovaes-com'} />
 
-      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardDireita texto={'Aplicativos escalonáveis com execução assíncrona em javascript baseado em eventos.'} 
       tec={'Clique para conhecer um projeto em node js'} img={NodeImg} 
       end={'https://github.com/KaiqueLimaNovaes/fullstack-games-api-node'} />
 
-      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardEsquerda texto={'Criação de aplicativos componetizados em javascript que são renderizados nativamento para android ou ios.'} 
       tec={'Clique para conhecer um projeto em react native'} img={ReactNImg} 
       end={'https://github.com/KaiqueLimaNovaes/fullstack-games-app.git'} />
 
-      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardDireita texto={'Rápido, flexível e pragmático, adequada para o desenvolvimento web desde blogs até grandes aplicações.'} 
       tec={'Clique para conhecer um projeto em php'} img={PhpImg} 
       end={'https://github.com/KaiqueLimaNovaes/fullstack-games-back'} />
 
-      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardEsquerda texto={'Uma linguagem de propósito geral, multiplataforma sendo utilizada desde analise de dados, inteligência artificial até mesmo em sistemas web.'} 
       tec={'Clique para conhecer um projeto em python'} img={PythonImg} 
       end={'https://github.com/KaiqueLimaNovaes/calculadora-python.git'} />
 
