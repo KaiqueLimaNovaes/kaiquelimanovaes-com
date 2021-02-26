@@ -43,7 +43,7 @@ const Card = styled.div`
         filter: blur(15px);
     }
     @media (max-width: 800px) {
-        height: 500px;
+        height: 530px;
     }
 `;
 
