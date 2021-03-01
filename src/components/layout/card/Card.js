@@ -89,6 +89,8 @@ const BotaoCard = styled.button`
     height: 50px;
     border-radius: 25px;
     background-color: white;
+    font-family:SF Pro Display Semibold;
+    font-size: 20px;
 `;
 
 const Card = (props) => {
