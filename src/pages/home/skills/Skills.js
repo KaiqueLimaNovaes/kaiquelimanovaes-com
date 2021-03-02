@@ -48,19 +48,19 @@ const Skills = () => {
       tec={'Clique para conhecer um projeto em python'} img={PythonImg} 
       end={'https://github.com/KaiqueLimaNovaes/calculadora-python.git'} />
 
-      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardDireita texto={'O conjunto de ferramentas e linguagens que permitem uma construção prática de diversas aplicações web atendendo variados propósitos.'} 
       tec={'Clique para conhecer um projeto em html'} img={HtmlImg} 
       end={'https://github.com/KaiqueLimaNovaes/fullstackGames.git'} />
 
-      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardEsquerda texto={'Um dos sistemas de gerenciamento de banco de dados mais usado no mundo em linguagem sql.'} 
       tec={'Clique para conhecer um projeto em mysql'} img={MysqlImg} 
       end={'https://github.com/KaiqueLimaNovaes'} />
 
-      <CardDireita texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardDireita texto={'Sistema de gerenciamento baseado em NoSql com o conceito de banco de dados de documentos.'} 
       tec={'Clique para conhecer um projeto em mongodb'} img={MongoImg} 
       end={'https://github.com/KaiqueLimaNovaes/fullstack-games-api-mongodb.git'} />
 
-      <CardEsquerda texto={'UIs interativas baseadas em componentes com lógica escrita em javascript podendo ser renderizado no servidor'} 
+      <CardEsquerda texto={'Atualmente é muito importante termos uma maneira agíl e eficaz para hospedarmos nosso código, termos controle de versão além da possibilidade de toda equipe poder trabalhar simultaneamente de forma organizada.'} 
       tec={'Clique para conhecer meu github'} img={GitImg} 
       end={'https://github.com/KaiqueLimaNovaes'} />
     </Section1>
