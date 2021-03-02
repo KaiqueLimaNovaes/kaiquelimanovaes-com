@@ -45,7 +45,7 @@ const CardC = styled.div`
     &:after {
         filter: blur(15px);
     }
-    @media (max-width: 800px) {
+    @media (max-width: 1200px) {
         height: 800px;
     }
 `;
