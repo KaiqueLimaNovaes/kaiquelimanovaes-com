@@ -25,12 +25,12 @@ const Mobile = () => {
       <Section1>
         <Title>Mobile</Title>
 
-        <CardM texto={'Um projeto criado em React native com banco de dados sql tudo conectado por um back-end em Nodejs, realizado em parceiria com mais 5 Devs.'}
+        <CardM texto={'Um projeto criado em React native, realizado em parceiria com mais 5 Devs.'}
         img1={AsseguraApp1} img2={AsseguraApp2} img3={AsseguraApp3} 
         titulo={'App Assegura LGBTQIA+'} end={'https://github.com/squad4spm/Assegura-Lgbtqia-App.git'}
         aplicacao={'https://github.com/squad4spm/Assegura-Lgbtqia-App.git'} />
         
-        <CardM texto={'Um projeto criado em Reactjs com ssr em Nextjs, com estilização através de styled components e responsividade com react-bootstrap.'}
+        <CardM texto={'Projeto de e-commerce criado para aprendizagem em React native.'}
         img1={FullstackApp1} img2={FullstackApp2} img3={FullstackApp3}
         titulo={'App Fullstack games'} end={'https://github.com/KaiqueLimaNovaes/fullstack-games-app.git'}
         aplicacao={'https://github.com/KaiqueLimaNovaes/fullstack-games-app.git'} />
