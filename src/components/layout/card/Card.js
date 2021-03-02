@@ -1,6 +1,9 @@
 import { Row, Col } from "react-bootstrap";
 import styled, { keyframes } from 'styled-components';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 const animate = keyframes`
     0%{
         background-position: 0 0;
@@ -48,8 +51,18 @@ const CardC = styled.div`
 `;
 
 const ImgEx = styled.img`
-    width: 90%;
+    width: 100%;
     @media (max-width: 800px) {
+        max-width: 300px;
+        max-height: 250px;
+    }
+`;
+
+const Crs = styled(Carousel)`
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    @media (max-width: 1200px) {
         max-width: 300px;
         max-height: 250px;
     }
@@ -98,7 +111,11 @@ const Card = (props) => {
       <CardC onClick={() => window.open(props.end)}>
           <Linha>
               <Coluna xl={5}>
-                  <ImgEx src={props.img} alt="" />
+                  <Crs showArrows={false} infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false} showIndicators={false}>
+                    <ImgEx src={props.img1} alt="" />
+                    <ImgEx src={props.img2} alt="" />
+                    <ImgEx src={props.img3} alt="" />
+                  </Crs>
               </Coluna>
               <Coluna xl={7}>
                 <TituloCard>{props.titulo}</TituloCard>
