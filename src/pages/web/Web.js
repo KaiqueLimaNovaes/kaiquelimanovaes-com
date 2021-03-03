@@ -33,7 +33,7 @@ const Web = () => {
         titulo={'Portifólio Kaique Lima Novaes'} end={'https://github.com/KaiqueLimaNovaes/kaiquelimanovaes-com'}
         aplicacao={'https://kaiquelimanovaes.com/'} />
 
-        <Card texto={'Um projeto criado em Reactjs com banco de dados sql tudo conectado por um back-end em Nodejs, realizado em parceiria com mais 5 Devs.'}
+        <Card texto={'Um projeto criado em Reactjs com banco de dados sql tudo conectado por um back-end em Nodejs, realizado em parceria com mais 5 Devs.'}
         img1={Assegura1} img2={Assegura2} img3={Assegura3} 
         titulo={'Assegura LGBTQIA+'} end={'https://github.com/squad4spm/Assegura-Lgbtqia.git'}
         aplicacao={'https://assegura-lgbtqia-squad4spm.vercel.app/'} />

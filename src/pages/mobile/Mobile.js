@@ -25,7 +25,7 @@ const Mobile = () => {
       <Section1>
         <Title>Mobile</Title>
 
-        <CardM texto={'Um projeto criado em React native, realizado em parceiria com mais 5 Devs.'}
+        <CardM texto={'Um projeto criado em React native, realizado em parceria com mais 5 Devs.'}
         img1={AsseguraApp1} img2={AsseguraApp2} img3={AsseguraApp3} 
         titulo={'App Assegura LGBTQIA+'} end={'https://github.com/squad4spm/Assegura-Lgbtqia-App.git'}
         aplicacao={'https://github.com/squad4spm/Assegura-Lgbtqia-App.git'} />
