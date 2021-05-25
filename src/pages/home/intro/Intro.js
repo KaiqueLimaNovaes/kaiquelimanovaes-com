@@ -17,7 +17,7 @@ const Title = styled.h1`
 const Intro = () => {
     return(
       <Section1>
-        <Title>Bem vindo ao meu portifólio</Title>
+        <Title>Bem vindo ao meu portfólio</Title>
         <Banner />
       </Section1>
     );

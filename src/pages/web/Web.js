@@ -30,7 +30,7 @@ const Web = () => {
 
         <Card texto={'Um projeto criado em Reactjs com ssr em Nextjs, com estilização através de styled components e responsividade com react-bootstrap.'}
         img1={kaique1} img2={kaique2} img3={kaique3}
-        titulo={'Portifólio Kaique Lima Novaes'} end={'https://github.com/KaiqueLimaNovaes/kaiquelimanovaes-com'}
+        titulo={'Portfólio Kaique Lima Novaes'} end={'https://github.com/KaiqueLimaNovaes/kaiquelimanovaes-com'}
         aplicacao={'https://kaiquelimanovaes.com/'} />
 
         <Card texto={'Um projeto criado em Reactjs com banco de dados sql tudo conectado por um back-end em Nodejs, realizado em parceria com mais 5 Devs.'}
